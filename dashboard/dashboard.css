@@ -1,0 +1,112 @@
+form {
+  font-size: 22px;
+  margin-left: 4%;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 0;
+}
+
+div {
+  margin: 1%;
+}
+
+.tela {
+  width: 75%;
+  height: 580px;
+  background-color: rgb(225, 214, 214);
+  padding-top: 1px;
+}
+
+.divCabecalho {
+  background-color: rgb(1, 11, 63);
+  color: white;
+  height: 55px;
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 1%;
+  padding-right: 2%;
+}
+
+.menu {
+  background-color: rgb(133, 186, 232);
+  width: 15%;
+  text-align: left;
+  margin-left: 1px;
+  box-shadow: 10px 10px 10px rgb(185, 183, 183);
+}
+
+.menu button {
+  background-color: rgb(1, 11, 63);
+  color: white;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 3%;
+}
+
+.paginaInicial button {
+  background-color: rgb(1, 11, 63);
+  color: white;
+  width: 15%;
+  height: 35px;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.telaPrincipal {
+  display: flex;
+  height: 420px;
+}
+
+.paginaInicial {
+  border: solid 1px;
+  width: 100%;
+  background-color: white;
+  height: 400px;
+  display: inline;
+  box-shadow: 10px 10px 10px rgb(185, 183, 183);
+  margin-right: 2px;
+  padding: 2%;
+  font-size: 20px;
+}
+
+h3 {
+  margin: 20px;
+}
+
+p {
+  margin: 10px;
+}
+
+.resultado {
+  display: flex;
+  margin: 10px;
+}
+
+.resultado img {
+  position: absolute;
+  right: 300px;
+}
+
+footer {
+  border: solid 1px;
+  height: 55px;
+  background-color: white;
+  width: 98%;
+  font-family: footer Georgia, "Times New Roman", Times, serif;
+  border-left: solid 10px rgb(133, 186, 232);
+  border-right: solid 10px rgb(133, 186, 232);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+
+.round-image {
+  border-radius: 60%;
+  float: right;
+}/*# sourceMappingURL=dashboard.css.map */

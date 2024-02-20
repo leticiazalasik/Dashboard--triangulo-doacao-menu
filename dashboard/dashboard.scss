@@ -1,0 +1,134 @@
+$primary-color:rgb(1, 11, 63);
+$secondary-color: white;
+$terciary-color:rgb(22, 22, 220);
+$quarternary-color: rgb(133, 186, 232);
+
+$standard-border: solid 1px;
+$large-height:500px;
+$large-widht: 90%;
+$general-font: Georgia, 'Times New Roman', Times, serif;
+$smal-margin: 5px;
+$medium-margin:10px;
+$large-margin:20px;
+$medium-shadows: 10px 10px 10px rgb(185, 183, 183);
+
+form{
+font-size: 22px; 
+margin-left: 4%;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $general-font;
+    padding: 0;
+}
+
+div{
+    margin: 1%;
+}
+.tela{
+    width: 75%;
+    height: 580px;
+    background-color: rgb(225, 214, 214);
+    padding-top: 1px; //Aqui eu tinha colocado % mas mesmo 1% fica muito grande então deixei px
+
+
+}
+.divCabecalho{
+    background-color: $primary-color;
+    color: $secondary-color;
+    height: 55px;
+    width: 98%;
+    display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 1%; //Precisa deixar as margin e padding em porcentagem ou px? 
+  padding-right: 2%;
+
+
+}
+
+.menu{
+    background-color: $quarternary-color;
+    width: 15%;
+    text-align: left;
+margin-left: 1px;
+    box-shadow: $medium-shadows
+
+}
+
+.menu button{
+    background-color: $primary-color;
+    color: $secondary-color;
+    width: 100%;
+    margin-bottom: $smal-margin;
+    padding: 3%;
+}
+
+.paginaInicial button {
+    background-color: $primary-color;
+    color: $secondary-color;
+    width: 15%;
+    height: 35px;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.telaPrincipal{
+    display: flex;
+    height: 420px;    
+    
+    
+}
+.paginaInicial{
+    border: $standard-border;
+    width: 100%;
+    background-color: $secondary-color;
+    height: 400px;
+    display: inline;
+    box-shadow: $medium-shadows;
+    margin-right: 2px;
+    padding: 2%;
+    font-size: 20px;
+
+}
+
+h3{
+    margin: $large-margin;
+}
+
+p{
+    margin: $medium-margin;
+}
+.resultado{
+    display: flex;
+    margin: $medium-margin;
+    }
+
+.resultado img{ 
+    position: absolute;
+  right: 300px;
+
+}
+footer{
+    border: $standard-border;
+    height: 55px;
+    background-color: $secondary-color;
+    width: 98%;
+    font-family: &$general-font;
+    border-left: solid 10px $quarternary-color;
+    border-right: solid 10px $quarternary-color;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-left: 1%;
+    margin-bottom: 2%;
+    
+
+}
+
+.round-image{
+    border-radius: 60%;
+float: right;
+}
+
+
