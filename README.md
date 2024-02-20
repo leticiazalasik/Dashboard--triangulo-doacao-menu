@@ -5,10 +5,8 @@ Inclui uma página inicial e um menu. Nesse menu existem 3 opções: triangulo, 
 ---
 ## 👨‍💻️ Tecnologias Utilizadas
 Esse projeto foi criado utilizando as tecnologias:
--
 ### :small_blue_diamond: Javascript
 ### :small_blue_diamond: Scss (CSS)
 ## :small_blue_diamond: HTML
---
-É um dos meus primeiros projetos, então fico aberta a sugestões! 
 ---
+É um dos meus primeiros projetos, então fico aberta a sugestões! 
